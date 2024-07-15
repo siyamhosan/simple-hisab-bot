@@ -1,0 +1,15 @@
+{
+  "exec": "bun",
+  "verbose": true,
+  "ext": "ts,js,json",
+  "ignore": [
+    "build",
+    "node_modules",
+    "src/main/commands/bundle/**",
+    "src/main/events/bundle/**",
+    "src/main/slashCommands/bundle/**",
+    "src/main/uniCommands/bundle/**",
+    "src/main/buttons/bundle/**",
+    "src/utility/localfiles/**"
+  ]
+}
